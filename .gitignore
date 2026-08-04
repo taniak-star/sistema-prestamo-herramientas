@@ -1,0 +1,5 @@
+bodega.db
+__pycache__/
+*.pyc
+uploads/*
+!.gitkeep
