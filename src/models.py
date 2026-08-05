@@ -35,7 +35,7 @@ class BodegaModel:
         cursor.execute("DELETE FROM Herramientas WHERE id = ?", (herramienta_id,))
         conn.commit()
         conn.close()
-
+        
     def obtener_herramientas_disponibles(self):
         conn = self.db.obtener_conexion()
         cursor = conn.cursor()
