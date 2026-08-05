@@ -4,7 +4,7 @@ from src.database import BaseDatos
 class BodegaModel:
     def __init__(self):
         self.db = BaseDatos()
-        
+    
     # --- MÓDULO HERRAMIENTAS ---
     def registrar_herramienta(self, nombre, descripcion, foto_path):
         conn = self.db.obtener_conexion()
